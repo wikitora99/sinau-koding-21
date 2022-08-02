@@ -24,19 +24,19 @@ class Tugas3
 
     public static void main(String[] args) 
     {
-        int cs1 = 1;
+        int cs = 1;
         float S, a, t, r;
 
-        while (cs1 == 1 || cs1 == 2 || cs1 == 3) 
+        while (cs == 1 || cs == 2 || cs == 3) 
         {
             System.out.print("\nMenghitung Bangun Datar\n");
             System.out.print("=======================\n");
             System.out.print("1. Persegi\n2. Segitiga (sama sisi)\n3. Lingkaran\n4. Keluar\n");
             System.out.print("=======================\n");
-            System.out.print("Masukkan pilihan: "); cs1 = scr.nextInt();
+            System.out.print("Masukkan pilihan: "); cs = scr.nextInt();
             System.out.print("=======================\n\n");
 
-            switch (cs1) {
+            switch (cs) {
                 case 1:
                     System.out.print("Bangun Datar Persegi\n");
                     System.out.print("=======================\n");
